@@ -1,16 +1,21 @@
-// import Home from './Home'
-import Header from './Header'
-import logo from '../assets/logo.png'
-import '../style/Header.css'
+import { BrowserRouter, Routes, Route } from "react-router-dom"
+import Homepage from "../pages/Homepage"
+import About from "../pages/About"
+import Error404 from "../pages/Error404"
+import Lodging from "../pages/Lodging"
+import "../style/_reset.css"
 
 function App() {
     return (
-        <div>
-            <Header>
-                <img src={logo} alt='Kasa' className='kasa-logo'/>
-            </Header>
-        </div>
-    );
+        <BrowserRouter>
+            <Routes>
+                <Route exact path="/" element={<Homepage/>} />
+                <Route path="/about" element={<About/>} />
+                <Route path="/lodging" element={<Lodging/>} />
+                <Route path="*" element={<Error404/>} />                {/* Redirection to page 404 for all others routes */}
+            </Routes>
+        </BrowserRouter>
+    )
 }
 
 export default App

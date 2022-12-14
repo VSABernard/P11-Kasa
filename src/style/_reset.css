@@ -1,0 +1,31 @@
+body {
+    box-sizing: border-box;
+    margin: 0;
+    font-family: "Montserrat", sans-serif;
+    font-size: map-get($sizes, base);
+  }
+  
+ul, p, h1, h2, h3 {
+  margin: 0;
+  padding: 0;
+  font-variant: normal;
+  text-decoration: none;
+  list-style-type: none;
+  border: none;
+  background: none;;
+}
+  
+a {
+    text-decoration: none;
+}
+  
+.contentPage {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 100vh;
+}
+
+.contentPage main {
+  flex-grow: 1;
+}

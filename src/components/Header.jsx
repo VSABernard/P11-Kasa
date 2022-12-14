@@ -1,13 +1,15 @@
+import React from 'react'
+import Navigation from '../components/Navigation'
 import logo from '../assets/logo.png'
+import "../style/Header.css"
 
-function Banner({ children }) {
-    const accueil = 'Accueil'
-    const apropos = "A Propos"
-    return <div className='kasa-header'>
-        <img src={logo} alt='Kasa' className='kasa-logo'/>
-        <nav className='kasa-acueil'>{accueil}</nav>
-        <nav className='kasa-apropos'>{apropos}</nav>
-    </div>
+const Header = () => {
+    return <header className='kasa-header'>
+        <picture>
+            <img src={logo} alt='logo-Kasa' className='kasa-logo'/>        
+        </picture>
+        <Navigation />
+    </header>
 }
 
-export default Banner
+export default Header
