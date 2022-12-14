@@ -1,35 +1,29 @@
-import React, { useEffect, useState } from "react";
-import { NavLink } from "react-router-dom";
-import "../style/Lodging.css"
+import React from "react";
+// import { NavLink } from "react-router-dom";
+import "../style/LodgingList.css"
+import housings from "../data/housings.json"
 
-const LodgingList = () => {
-    const [data, setData] = useState([])            // Hook state to update and use data
-
-    useEffect(() => {
-        const fetchData = async () => {
-            const data = await fetch("../data/housings.json")
-            const json = await data.json()
-            setData(json)
-        }
-        fetchData()
-    }, [])
-
-    return [
-        <ul className="lodgingList-home">
-            {data.map((item, index) => (            // Map array data to display the list of lodgings which are in location
-                <li className="lodgingList-card" key={item.id + "-lodging- + index"}>
-                    {/* Link to lodging's page */ }
-                    <NavLink to={"/lodging" + item.id}>
-                        <h3> {item.title} </h3>
+function LodgingList () {
+   
+   console.log(housings)
+    return (
+        
+        <ul className="lodgingList-card" >
+            { housings.map((housing) => (
+                <li key={housing.id} className="lodging-item">
+                    <img className="lodging-image" src={ housing.cover } alt={`${housing.title} cover`} />
+                    <h3 className="lodging-title">{ housing.title }</h3>
+                
+                    {/* <NavLink to={"/Lodging" + id}>
+                        <h3> {title} </h3>
                         <picture>
-                            <img src={item.cover} alt={item.title}>
-                            </img>                        
+                            <img src={cover} alt={title}></img>                        
                         </picture>
-                    </NavLink>      
-                </li>
+                    </NavLink> */}
+                </li>                
             ))}
         </ul>
-    ]
+    )
 }
 
 export default LodgingList

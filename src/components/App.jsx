@@ -1,8 +1,8 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom"
 import Homepage from "../pages/Homepage"
-import About from "../pages/About"
-import Error404 from "../pages/Error404"
-import Lodging from "../pages/Lodging"
+// import About from "../pages/About"
+// import Error404 from "../pages/Error404"
+// import Lodging from "../pages/Lodging"
 import "../style/_reset.css"
 
 function App() {
@@ -10,9 +10,9 @@ function App() {
         <BrowserRouter>
             <Routes>
                 <Route exact path="/" element={<Homepage/>} />
-                <Route path="/about" element={<About/>} />
+                {/* <Route path="/about" element={<About/>} />
                 <Route path="/lodging" element={<Lodging/>} />
-                <Route path="*" element={<Error404/>} />                {/* Redirection to page 404 for all others routes */}
+                <Route path="*" element={<Error404/>} />                Redirection to page 404 for all others routes */}
             </Routes>
         </BrowserRouter>
     )

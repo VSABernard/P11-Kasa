@@ -4,6 +4,7 @@ import Slogan from "../components/Slogan"
 import LodgingList from "../components/LodgingList"
 // import Footer from "../components/Footer"
 import "../style/Homepage.css"
+// import "../style/LodgingList.css"
 
 const Homepage = () => {
     useEffect(() => {
