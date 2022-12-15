@@ -1,10 +1,10 @@
 import React, { useEffect } from "react"
-import Header from "../components/Header"
-import Slogan from "../components/Slogan"
-import LodgingList from "../components/LodgingList"
+import Header from "../../components/Header/Header"
+import Slogan from "../../components/Slogan/Slogan"
+import LodgingList from "../../components/LodgingList/LodgingList"
 // import Footer from "../components/Footer"
-import "../style/Homepage.css"
-// import "../style/LodgingList.css"
+import "../Homepage/Homepage.css"
+
 
 const Homepage = () => {
     useEffect(() => {

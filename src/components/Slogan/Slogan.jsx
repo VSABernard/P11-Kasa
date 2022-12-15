@@ -1,5 +1,5 @@
 import React from "react"
-import "../style/Slogan.css"
+import "../Slogan/Slogan.css"
 
 const Slogan = ({ slogan1, slogan2, background }) => {
   // Slogan with props to change background (with a css class) and text

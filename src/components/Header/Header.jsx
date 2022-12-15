@@ -1,7 +1,7 @@
 import React from 'react'
-import Navigation from '../components/Navigation'
-import logo from '../assets/logo.png'
-import "../style/Header.css"
+import Navigation from '../Navigation/Navigation'
+import logo from '../../assets/logo.png'
+import "../Header/Header.css"
 
 const Header = () => {
     return <header className='kasa-header'>

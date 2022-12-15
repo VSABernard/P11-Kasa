@@ -1,7 +1,7 @@
 import React from "react";
 // import { NavLink } from "react-router-dom";
-import "../style/LodgingList.css"
-import housings from "../data/housings.json"
+import "../LodgingList/LodgingList.css"
+import housings from "../../data/housings.json"
 
 function LodgingList () {
    

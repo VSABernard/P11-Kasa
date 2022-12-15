@@ -3,10 +3,10 @@
     margin: auto;
     z-index: 1;
     height: 223px;
-    width: 1440px;
+    width: 1340px;
     border-radius: 25px;
     background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
-        url("../assets/background-slogan.png");
+        url("../../assets/background-slogan.png");
     background-size: cover;
     overflow: hidden;
     mix-blend-mode: darken;

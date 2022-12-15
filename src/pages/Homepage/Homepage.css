@@ -1,0 +1,13 @@
+.home {
+    margin: auto;
+    width: 1440px; 
+}
+
+.main-homepage {    
+    background: #F6F6F6;
+    padding: 50px 50px 20px 50px;
+    border-radius: 25px;
+    margin: 50px auto;
+    width: 1240px;
+    height: auto;
+}
