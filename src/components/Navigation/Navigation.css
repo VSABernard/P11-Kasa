@@ -3,7 +3,6 @@
     display: flex;
     justify-content: flex-end;
     gap: 50px;
-    margin-right: 40px;
 }
 
 .nav a {

@@ -2,7 +2,7 @@ import React, { useEffect } from "react"
 import Header from "../../components/Header/Header"
 import Slogan from "../../components/Slogan/Slogan"
 import LodgingList from "../../components/LodgingList/LodgingList"
-// import Footer from "../components/Footer"
+import Footer from "../../components/Footer/Footer"
 import "../Homepage/Homepage.css"
 
 
@@ -25,7 +25,7 @@ const Homepage = () => {
                 <LodgingList />
             </main>
 
-            {/* <Footer /> */}
+            <Footer /> 
         </div>
     )
 }
