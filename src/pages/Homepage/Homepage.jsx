@@ -1,6 +1,6 @@
 import React, { useEffect } from "react"
 import Header from "../../components/Header/Header"
-import Slogan from "../../components/Slogan/Slogan"
+import Banner from "../../components/Banner/Banner"
 import LodgingList from "../../components/LodgingList/LodgingList"
 import Footer from "../../components/Footer/Footer"
 import "../Homepage/Homepage.css"
@@ -15,7 +15,7 @@ const Homepage = () => {
         <div className="home">
             <div>
                 <Header />
-                <Slogan 
+                <Banner 
                     slogan1="Chez vous,"
                     slogan2=" partout et ailleurs" 
                     background="background-slogan-homepage" />                        
