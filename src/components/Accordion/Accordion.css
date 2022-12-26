@@ -1,0 +1,48 @@
+.accordion-block {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    row-gap: 30px;
+    margin: 30px auto 200px;
+    width: 1023px;
+}
+
+.accordion-section {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    gap: 800px;
+    width: 1023px;
+    height: 47px;
+    background: #FF6060;
+    border-radius: 5px;
+}
+
+.accordion-title, .chevron {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 34px;
+    display: flex;
+    align-items: flex-start;
+    color: #FFFFFF;
+    left: 18px;
+}
+
+.accordion-content {
+    max-width: 1023px;
+    height: auto;
+    background: #E5E5E5;
+    border-radius: 5px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 34px;
+    color: #FF6060;
+    padding: 30px 27px 20px 18px;
+    top: 38px;
+}

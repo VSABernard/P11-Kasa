@@ -1,18 +1,18 @@
 header {
+    position: inherit;
+    width: 1240px;
     color: white;
     text-align: left;
-    margin: auto;
-    padding: 30px 100px;
+    margin: 50px auto;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    position: relative;    
 }
 
 img .kasa-logo {
     height: 68px;
     width: 210px;
     object-fit: cover;
-    margin-top: 40px;
+    margin: 40px auto;
 }

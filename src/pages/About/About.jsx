@@ -3,6 +3,8 @@ import Header from "../../components/Header/Header"
 import Banner from "../../components/Banner/Banner"
 import Accordion from "../../components/Accordion/Accordion"
 import accordionData from "../../data/accordionData.json"
+import "../../pages/About/About.css"
+import Footer from "../../components/Footer/Footer"
 
 
 const About = () => {
@@ -18,9 +20,10 @@ const About = () => {
             </div>
             <div className="accordion-block">
                 {accordionData.map(({ title, content }) => (
-                <Accordion title={title} content={content} />
+                <Accordion key={title} title={title} content={content} />
                 ))}
             </div>
+            <Footer />
         </div>
     )
 }

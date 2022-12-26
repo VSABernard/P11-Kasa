@@ -2,11 +2,12 @@ footer {
     display: block;
     background-color: #000;
     text-align: center;
-    width: 100%;
+    width: auto;
     height: 124px;
     margin: auto;
     padding: 65px 0px 20px 0px;
     color: #fff;
+    bottom: 0;
 }
 
 img {

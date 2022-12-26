@@ -1,13 +1,14 @@
 .lodgingList-card {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: flex-start;
     flex-wrap: wrap;
     align-items: center;
     width: 100%;
     margin: auto;
-    padding-bottom: 30px;
-    gap: 50px;
+    padding-left: 20px;
+    row-gap: 30px;
+    column-gap: 25px;
     position: relative;
     z-index: 1;
     border-radius: 10px;    
@@ -20,7 +21,7 @@
     position: relative;
     z-index: 1;
     border-radius: 10px;
-    position: relative;
+    margin: 20px;
 }
 
 .lodging-image {
