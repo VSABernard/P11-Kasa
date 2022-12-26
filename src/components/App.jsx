@@ -12,6 +12,7 @@ function App() {
                 <Route exact path="/" element={<Homepage/>} />
                 <Route path="/about" element={<About/>} />
                 <Route path="/lodging" element={<Lodging/>} />
+                <Route path="/lodging/:id" element={<Lodging/>} />
                 <Route path="*" element={<Error404/>} />                {/*Redirection to page 404 for all others routes */}
             </Routes>
         </BrowserRouter>
