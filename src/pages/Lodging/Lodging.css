@@ -1,0 +1,7 @@
+.presentation-lodging {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 120px;
+    margin: 20px 0;
+}

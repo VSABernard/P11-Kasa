@@ -1,0 +1,14 @@
+.starRate {
+    display:flex;
+    justify-content: flex-end;
+    -webkit-padding-start: 0px;
+            padding-inline-start: 0px;
+}
+
+.starRate li {
+    list-style: none;
+}
+
+.starRate img {
+    width: 18px;
+}
