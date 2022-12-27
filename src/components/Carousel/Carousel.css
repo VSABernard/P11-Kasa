@@ -1,0 +1,56 @@
+.carousel {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 1240px;
+    height: auto;
+    margin: auto;
+}
+
+.carousel-image {
+    position: fixed;
+    width: 1240px;
+    height: 415px;
+    border-radius: 25px;
+    mix-blend-mode: normal;
+    left: 0%;
+    right: 0%;
+    top: 128px;
+    margin: auto;
+    object-fit: cover;
+}
+
+.chevron {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    justify-content: stretch;
+    top: 150px;
+    left: 0%;
+    right: 0%;
+    z-index: 2;
+    margin-left: 200px;
+    margin-right: -100px;
+}
+
+.previous, .next {
+    width: 47px;
+    height: 79px;
+    position: relative;
+    color: #FFFFFF;
+}
+
+.previous {
+    left: 0%;
+    right: 92.26%;
+    top: 35.74%;
+    bottom: 35.44%;
+}
+
+.next {
+    left: 92.26%;
+    right: 0%;
+    top: 33.93%;
+    bottom: 37.24%;
+}

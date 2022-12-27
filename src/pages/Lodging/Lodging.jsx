@@ -16,7 +16,6 @@ const Lodging = () => {
     return (
         <div className="lodging">
             <Header />
-            <p>blabla {id}</p>
             <Carousel pictures= {housing.pictures}/>
         </div>
         

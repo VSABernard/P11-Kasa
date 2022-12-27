@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { fas } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import "../Carousel/Carousel.css"
 
 const Carousel = ({pictures}) => {
     const [index, setIndex] = useState(0)
@@ -27,10 +28,12 @@ const Carousel = ({pictures}) => {
     }
 
     return (
-    <div className="carousel">
-        <img src={currentImage}></img>
-        <button onClick={handlePrevious}>Previous</button>
-        <button onClick={handleNext}>Next</button>
+    <div className="carousel">      
+        <img className='carousel-image' src={ currentImage } alt= { `${currentImage.title} cover` }></img>
+        <div className='chevron'>
+            <FontAwesomeIcon className='previous' icon= {'chevron-left'} onClick={handlePrevious} />
+            <FontAwesomeIcon className='next' icon= {'chevron-right'} onClick={handleNext} />
+        </div>
         <p>{index}</p>
     </div>
     )
