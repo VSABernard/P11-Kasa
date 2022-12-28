@@ -1,0 +1,33 @@
+.host {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    position: relative;
+    width: 250px;
+    gap: 20px;
+}
+
+.host img {
+    width: 64px;
+    height: 64px;
+    right: 0;
+    background: #C4C4C4;
+    object-fit: cover;
+    border-radius: 60px;
+}
+
+.host-name {
+    width: 93px;
+    height: 52px;
+    left: 1170px;
+    top: 573px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 26px;
+    display: flex;
+    align-items: flex-end;
+    text-align: right;
+    color: #FF6060;
+}

@@ -1,14 +1,10 @@
 .lodging-header {
-    position: absolute;
-    width: 50%;
+    width: 100%;
     height: 100%;
     display: flex;
     flex-direction: column;
-    margin: 420px auto;
-    left: 14%;
-    right: 80.83%;
-    top: 18%;
-    bottom: 36.52%;
+    margin-left: -60px;
+    flex: 5;
 }
 
 .lodging-title {

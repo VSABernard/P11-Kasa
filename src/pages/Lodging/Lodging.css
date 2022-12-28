@@ -1,15 +1,30 @@
 .main-lodging {
-    position: absolute;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-around;
+    align-items: center;
     width: 1240px;
-    height: 100%;
+    height: auto;
+    position: absolute;
+    top: 180px;
 }
 
 .head-lodging {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: space-around;
-    height: auto;
+    position: relative;
+    top: 380px;
+    left: 260px;
+    width: 1200px;
+}
+
+.rate-host {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    align-content: flex-end;
+    align-items: flex-end;
+    width: 93px;
+    right: 30px;
 }

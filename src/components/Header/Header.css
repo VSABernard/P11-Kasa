@@ -1,12 +1,17 @@
+.kasa-header {
+    margin-top: 40px;
+    margin-left: 220px;
+    align-items: center;
+    width: 1240px;
+}
 header {
-    position: inherit;
+    position: absolute;
     width: 1240px;
     color: white;
-    text-align: left;
     margin: 50px auto;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
 }
 

@@ -3,30 +3,28 @@
     display: flex;
     flex-direction: row;
     width: 1240px;
-    height: 100px;
+    height: 415px;
     margin: auto;
 }
 
 .carousel-image {
-    position: fixed;
+    position: relative;
     width: 1240px;
     height: 415px;
     border-radius: 25px;
     mix-blend-mode: normal;
-    left: 0%;
-    right: 0%;
-    top: 128px;
-    margin: auto;
+    margin: 100px auto;
+    left:220px;
     object-fit: cover;
 }
 
 .chevron {
     display: flex;
     justify-content: flex-start;
-    position: relative;
+    position: absolute;
     margin: auto;
-    top: 150px;
-    left: 240px;
+    top: 250px;
+    left: 260px;
     z-index: 2;
     gap: 1050px;
 }

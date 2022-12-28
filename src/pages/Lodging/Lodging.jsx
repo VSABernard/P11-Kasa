@@ -4,6 +4,8 @@ import Header from "../../components/Header/Header"
 import Carousel from "../../components/Carousel/Carousel"
 import LodgingHeader from "../../components/LodgingHeader/LodgingHeader"
 import Rating from "../../components/Rating/Rating"
+import LodgingHost from "../../components/LodgingHost/LogdingHost"
+import "../../pages/Lodging/Lodging.css"
 
 const Lodging = () => {    
     useEffect(() => {
@@ -16,14 +18,17 @@ const Lodging = () => {
     console.log (housing)    
 
     return (
-        <div className="lodging">
+        <div className='lodging'>
             <Header />
-            <div className="main-lodging">
-                <Carousel pictures= { housing.pictures }/>   
-                <div className="head-lodging"> 
+            <div className='main-lodging'>
+                <Carousel pictures= { housing.pictures }/> 
+                <div className='head-lodging'>  
                     <LodgingHeader housing={ housing } />
-                    
-                </div>   
+                    <div className='rate-host'>  
+                        <LodgingHost host={ housing.host}/>                   
+                        <Rating rating={ housing.rating } /> 
+                    </div>     
+                </div>                 
             </div>
         </div>
         

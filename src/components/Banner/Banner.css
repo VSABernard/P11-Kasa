@@ -1,6 +1,7 @@
 .background-slogan-homepage, .background-about-d {
     position: relative;
     margin: auto;
+    top: 100px;
     z-index: 1;
     height: 223px;
     width: 1240px;
