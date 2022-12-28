@@ -1,6 +1,8 @@
 .lodging {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    margin-top: 40px;
 }
 
 .main-lodging {
@@ -8,17 +10,14 @@
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    width: 1240px;
     height: auto;
+    margin: auto;
 }
 
 .head-lodging {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    position: relative;
-    top: -120px;
-    left: 220px;
     width: 1240px;
 }
 
@@ -36,11 +35,10 @@
     position: relative;
     display: flex;
     flex-direction: row;
-    justify-content: center;
     max-width: 1240px;
     height: auto;
     gap: 60px;
-    margin-top: -90px;
+    margin-top: 30px;
     margin-left: -30px;
     margin-bottom: 60px;
 }

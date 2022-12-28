@@ -39,7 +39,7 @@ const Lodging = () => {
             </div>  
             <Footer />   
         </div>        
-    ) 
+    )
 }
 
 export default Lodging

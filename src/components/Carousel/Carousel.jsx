@@ -26,7 +26,7 @@ const Carousel = ({pictures}) => {
     }
 
     return (
-    <div className="carousel">      
+    <div className='carousel'>      
         <img className='carousel-image' src={ currentImage } alt= { `${currentImage.title} cover` }></img>
         <div className='chevron'>
             <FontAwesomeIcon className='previous' icon= {'chevron-left'} onClick={handlePrevious} />
