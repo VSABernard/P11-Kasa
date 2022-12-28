@@ -8,6 +8,7 @@ import LodgingHost from "../../components/LodgingHost/LogdingHost"
 import "../../pages/Lodging/Lodging.css"
 import LodgingDescription from "../../components/LodgingDescription/LodgingDescription"
 import LodgingEquipment from "../../components/LodgingEquipment/LodgingEquipment"
+import Footer from "../../components/Footer/Footer"
 
 const Lodging = () => {    
     useEffect(() => {
@@ -33,9 +34,10 @@ const Lodging = () => {
                 </div>      
                 <div className='infos'>
                     <LodgingDescription description={ housing.description } />
-                    <LodgingEquipment equipment={ housing.equipment } />
+                    <LodgingEquipment equipments= { housing.equipments } />
                 </div>                 
-            </div>            
+            </div>  
+            <Footer />   
         </div>        
     ) 
 }

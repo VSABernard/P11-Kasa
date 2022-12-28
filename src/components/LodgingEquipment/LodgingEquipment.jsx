@@ -8,17 +8,17 @@ library.add(fas)
 
 const LodgingEquipment = ({ equipments }) => {
     const [isActive, setIsActive] = useState(false)
-
+    console.log("equipments : " + equipments)
     return (
         <div className='equipment'>
             <div className='equipment-section' onClick={() => setIsActive(!isActive)}>
                 <p className='equipment-title'>Équipements</p>
                 <FontAwesomeIcon className='chevron-equipment' icon={`${isActive ? 'chevron-up' : 'chevron-down'}`} />
             </div>
-            {isActive && <div className="equipment-content">{ equipments.map ((equipment) => (
+            {isActive && <ul><div className="equipment-content">{ equipments.map ((equipment) => (
                 <li key={equipment}>{ equipment }</li>
             ))}
-            </div>}
+            </div></ul>}
         </div>
     )
  }
