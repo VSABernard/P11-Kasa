@@ -1,10 +1,10 @@
 .carousel {
-    position: absolute;
     display: flex;
     flex-direction: row;
     width: 1240px;
     height: 415px;
-    margin: auto;
+    margin: 140px auto;
+    position: relative;
 }
 
 .carousel-image {
@@ -13,7 +13,7 @@
     height: 415px;
     border-radius: 25px;
     mix-blend-mode: normal;
-    margin: 100px auto;
+    margin: auto;
     left:220px;
     object-fit: cover;
 }
@@ -23,7 +23,7 @@
     justify-content: flex-start;
     position: absolute;
     margin: auto;
-    top: 250px;
+    top: 150px;
     left: 260px;
     z-index: 2;
     gap: 1050px;
@@ -50,22 +50,19 @@
 }
 
 .index {
+    position: relative;
     z-index: 3;
-    position: fixed;
-    left: 50%;
-    right: 50%;
-    top: 200px;
-    bottom: 0;
-    margin: auto;
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 500;
     font-size: 18px;
     line-height: 26px;
     display: flex;
+    justify-content: center;
     align-items: center;
     text-align: center;
     color: #FFFFFF;
+    background: fuchsia;
     width: 24px;
     height: 32px;
 }

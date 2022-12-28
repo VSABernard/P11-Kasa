@@ -7,7 +7,7 @@ import "../Accordion/Accordion.css"
 library.add(fas)
 
 const Accordion = ({ title, content }) => {
-  const [isActive, setIsActive] = useState(false);
+  const [isActive, setIsActive] = useState(false)
 
   return (
     <div className="accordion-item">

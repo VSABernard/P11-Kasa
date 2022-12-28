@@ -6,6 +6,8 @@ import LodgingHeader from "../../components/LodgingHeader/LodgingHeader"
 import Rating from "../../components/Rating/Rating"
 import LodgingHost from "../../components/LodgingHost/LogdingHost"
 import "../../pages/Lodging/Lodging.css"
+import LodgingDescription from "../../components/LodgingDescription/LodgingDescription"
+import LodgingEquipment from "../../components/LodgingEquipment/LodgingEquipment"
 
 const Lodging = () => {    
     useEffect(() => {
@@ -27,11 +29,14 @@ const Lodging = () => {
                     <div className='rate-host'>  
                         <LodgingHost host={ housing.host}/>                   
                         <Rating rating={ housing.rating } /> 
-                    </div>     
+                    </div>                         
+                </div>      
+                <div className='infos'>
+                    <LodgingDescription description={ housing.description } />
+                    <LodgingEquipment equipment={ housing.equipment } />
                 </div>                 
-            </div>
-        </div>
-        
+            </div>            
+        </div>        
     ) 
 }
 

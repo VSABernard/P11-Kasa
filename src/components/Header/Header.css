@@ -1,8 +1,9 @@
 .kasa-header {
-    margin-top: 40px;
-    margin-left: 220px;
+    display: flex;
+    justify-content: center;
     align-items: center;
     width: 1240px;
+    margin-left: 230px;
 }
 header {
     position: absolute;

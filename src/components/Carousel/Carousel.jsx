@@ -32,7 +32,7 @@ const Carousel = ({pictures}) => {
             <FontAwesomeIcon className='previous' icon= {'chevron-left'} onClick={handlePrevious} />
             <FontAwesomeIcon className='next' icon= {'chevron-right'} onClick={handleNext} />
         </div>
-        <p className='index'>{index+1}/{length}</p>
+        <div className='index'>{index+1}/{length}</div>
     </div>
     )
 }

@@ -1,0 +1,36 @@
+.equipment-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 582px;
+    height: 52px;
+    background: #FF6060;
+    border-radius: 5px;
+    gap: 400px;
+}
+
+.equipment-title, .chevron-equipment {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 26px;
+    display: flex;
+    align-items: flex-start;
+    color: #FFFFFF;
+    left: 18px;
+}
+
+.equipment-content {
+    width: 582px;
+    height: 249px;
+    background: #E5E5E5;
+    border-radius: 5px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    color: #FF6060;
+}
