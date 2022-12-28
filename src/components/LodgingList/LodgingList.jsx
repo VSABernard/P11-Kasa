@@ -12,7 +12,7 @@ function LodgingList () {
                 <li key={housing.id} className="lodging-item">
                     <Link to={`/Lodging/${housing.id}`} state={ housing } >
                         <img className="lodging-image" src={ housing.cover } alt={`${housing.title} cover`} />
-                        <h3 className="lodging-title">{ housing.title }</h3>
+                        <h3 className="lodging-h3">{ housing.title }</h3>
                     </Link>
                     
                 </li>                

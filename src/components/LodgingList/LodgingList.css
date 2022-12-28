@@ -42,12 +42,11 @@
     background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 0.5) 100%); 
 }  
 
-.lodging-title {
+.lodging-h3 {
     width: 80%;
     height: 52px;
     margin-top: -50px;
     left: 20px;
-    padding-left: 20px;
     z-index: 3;
     color: #fff;
     font-size: 18px;

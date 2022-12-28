@@ -2,9 +2,8 @@
     position: absolute;
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
     width: 1240px;
-    height: auto;
+    height: 100px;
     margin: auto;
 }
 
@@ -22,22 +21,19 @@
 }
 
 .chevron {
-    position: absolute;
     display: flex;
-    flex-direction: row;
-    justify-content: stretch;
+    justify-content: flex-start;
+    position: relative;
+    margin: auto;
     top: 150px;
-    left: 0%;
-    right: 0%;
+    left: 240px;
     z-index: 2;
-    margin-left: 200px;
-    margin-right: -100px;
+    gap: 1050px;
 }
 
 .previous, .next {
     width: 47px;
     height: 79px;
-    position: relative;
     color: #FFFFFF;
 }
 
@@ -53,4 +49,25 @@
     right: 0%;
     top: 33.93%;
     bottom: 37.24%;
+}
+
+.index {
+    z-index: 3;
+    position: fixed;
+    left: 50%;
+    right: 50%;
+    top: 200px;
+    bottom: 0;
+    margin: auto;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 26px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+    width: 24px;
+    height: 32px;
 }

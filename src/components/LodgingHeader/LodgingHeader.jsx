@@ -1,19 +1,19 @@
 import React from 'react'
 import "../LodgingHeader/LodgingHeader.css"
 
-const LodgingHeader = ({ data }) => {
+const LodgingHeader = ({ housing }) => {
     return (
-        <header className='lodging-header'>
+        <div className='lodging-header'>
             <div className='lodging-title'>
-                <h1> {data.title} </h1>
-                <h2> {data.location} </h2>
+                <h1 className='lodging-h1'> {housing.title} </h1>
+                <h2 className='lodging-h2'> {housing.location} </h2>
             </div>
             <ul className='lodging-tags'>
-                { data.tags.map ((tag, index) => (
-                    <li key= { data.id + "-" + tag + "-" + index }> {tag} </li>
+                { housing.tags.map ((tag, index) => (
+                    <li key= { housing.id + "-" + tag + "-" + index }> {tag} </li>
                 ))}
             </ul>
-        </header>
+        </div>
     )
 }
 

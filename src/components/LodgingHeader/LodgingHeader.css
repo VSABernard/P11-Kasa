@@ -1,31 +1,40 @@
 .lodging-header {
+    position: absolute;
+    width: 50%;
     height: 100%;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    align-items: flex-start;
-    margin-top: 25px;
-    margin-bottom: 25px;
+    margin: 420px auto;
+    left: 14%;
+    right: 80.83%;
+    top: 18%;
+    bottom: 36.52%;
 }
 
-h1 {
-    position: absolute;
+.lodging-title {
+    display: flex;
+    flex-direction: column;
     left: 6.94%;
-    right: 48.96%;
-    top: 55.96%;
-    bottom: 39.06%;
+    right: 80.83%;
+    top: 60.94%;
+    bottom: 36.52%;
+}
+
+.lodging-h1 {
+    left: 6.94%;
+    right: 80.83%;
+    top: 60.94%;
+    bottom: 36.52%;
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 500;
     font-size: 36px;
     line-height: 51px;
     display: flex;
-    align-items: flex-end;
     color: #FF6060;
 }
 
-h2 {
-    position: absolute;
+.lodging-h2 {
     left: 6.94%;
     right: 80.83%;
     top: 60.94%;
@@ -35,7 +44,6 @@ h2 {
     font-weight: 500;
     font-size: 18px;
     line-height: 26px;display: flex;
-    align-items: flex-end;
     color: #FF6060;
 }
 
@@ -43,8 +51,11 @@ h2 {
     display: flex;
     flex-wrap: wrap;
     gap: 10px;
-    align-items: center;
-    margin-bottom: 7px;
+    left: 6.94%;
+    right: 80.83%;
+    top: 70%;
+    bottom: 36.52%;
+    margin-top: 20px;
 }
 
 .lodging-tags li {
@@ -53,5 +64,8 @@ h2 {
     color: #fff;
     padding: 2px 30px;
     border-radius: 10px;
-    line-height: 19px;
+    line-height: 25px;
+    height: 25px;
+    width: 115px;
+
 }

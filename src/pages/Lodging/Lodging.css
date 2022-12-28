@@ -1,7 +1,15 @@
-.presentation-lodging {
+.main-lodging {
+    position: absolute;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 120px;
-    margin: 20px 0;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 1240px;
+    height: 100%;
+}
+
+.head-lodging {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: auto;
 }

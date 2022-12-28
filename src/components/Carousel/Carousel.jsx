@@ -8,7 +8,7 @@ const Carousel = ({pictures}) => {
 
     const length = pictures.length
     console.log (pictures)
-    console.log(pictures[0])
+    console.log (pictures[0])
     console.log (length)
 
     const handlePrevious = () => {
@@ -32,7 +32,7 @@ const Carousel = ({pictures}) => {
             <FontAwesomeIcon className='previous' icon= {'chevron-left'} onClick={handlePrevious} />
             <FontAwesomeIcon className='next' icon= {'chevron-right'} onClick={handleNext} />
         </div>
-        <p>{index}</p>
+        <p className='index'>{index+1}/{length}</p>
     </div>
     )
 }

@@ -13,7 +13,7 @@ const Accordion = ({ title, content }) => {
     <div className="accordion-item">
       <div className="accordion-section" onClick={() => setIsActive(!isActive)}>
         <div className='accordion-title'>{title}</div>
-        <FontAwesomeIcon className='chevron' icon={`${isActive  ? 'chevron-up' : 'chevron-down'}`} />
+        <FontAwesomeIcon className='chevron-accordion' icon={`${isActive  ? 'chevron-up' : 'chevron-down'}`} />
       </div>
       {isActive && <div className="accordion-content">{content}</div>}
     </div>
