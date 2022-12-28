@@ -13,8 +13,7 @@ function LodgingList () {
                     <Link to={`/Lodging/${housing.id}`} state={ housing } >
                         <img className="lodging-image" src={ housing.cover } alt={`${housing.title} cover`} />
                         <h3 className="lodging-h3">{ housing.title }</h3>
-                    </Link>
-                    
+                    </Link>                   
                 </li>                
             ))}
         </ul>

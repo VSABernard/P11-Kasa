@@ -15,7 +15,10 @@ const LodgingEquipment = ({ equipments }) => {
                 <p className='equipment-title'>Équipements</p>
                 <FontAwesomeIcon className='chevron-equipment' icon={`${isActive ? 'chevron-up' : 'chevron-down'}`} />
             </div>
-            {isActive && <div className="equipment-content">{ equipments }</div>}
+            {isActive && <div className="equipment-content">{ equipments.map ((equipment) => (
+                <li key={equipment}>{ equipment }</li>
+            ))}
+            </div>}
         </div>
     )
  }
