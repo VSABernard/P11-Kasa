@@ -12,12 +12,12 @@
 }
 
 .background-slogan-homepage {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.4)),
         url("../../assets/background-slogan.png");
 }
 
 .background-about-d {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.4)),
         url("../../assets/background-about-d.png");
 }
 
@@ -30,4 +30,17 @@
     color: #fff;
     font-size: 48px;
     font-weight: 500;
+}
+
+@media (max-width: 998px) {
+    .background-slogan-homepage {
+        width: 998px;
+        margin-left: 120px;
+    }
+    .background-slogan-homepage h2 {
+        display: flex;
+        align-items: flex-start;
+        flex-direction: column;
+        margin-left: 40px;
+    }
 }

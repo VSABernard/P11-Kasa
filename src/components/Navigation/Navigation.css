@@ -3,7 +3,7 @@
     display: flex;
     justify-content: flex-end;
     gap: 50px;
-    margin-right: 10px;
+    margin-right: 20px;
 }
 
 .nav a {
@@ -21,4 +21,11 @@
 
 .nav_item--active {
     text-decoration: underline;
+}
+
+
+@media (max-width: 768px) {
+    .nav {
+        margin-right: 30px;
+    }
 }

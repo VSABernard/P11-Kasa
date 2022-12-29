@@ -1,21 +1,22 @@
 footer {
     display: flex;
+    position: relative;
+    flex: 0;
     flex-direction: column;
-    justify-content: center;
+    justify-content: stretch;
+    text-align: center;
     background-color: #000;
-    width: 100%;
     height: 124px;
-    margin: auto;
     padding: 65px 0px 20px 0px;
     color: #fff;
-    bottom: 0;
 }
 
 .image-footer {
-    display: block;
+    display: flex;
     justify-content: center;
     text-align: center;
     align-items: center;
+    min-width: auto;
 }
 
 img {
@@ -28,4 +29,10 @@ p {
     margin-top: 45px;
     align-items: center;
     text-align: center;
+}
+
+@media (max-width: 998px) {
+    footer {
+        min-width: 100vw;
+    }
 }
