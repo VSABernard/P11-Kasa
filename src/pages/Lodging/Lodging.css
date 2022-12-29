@@ -43,6 +43,23 @@
     margin-bottom: 60px;
 }
 
-@media (max-width: 768px) {
-    
+@media (max-width: 998px) {
+    .head-lodging {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        margin-left: 40px;
+        width: 998px;
+    }
+    .rate-host {
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        min-width: 998px;
+        margin-left: 30px;
+    }
+    .infos {
+        flex-direction: column;
+        width: 998px;
+        margin-left: 40px;
+    }
 }
