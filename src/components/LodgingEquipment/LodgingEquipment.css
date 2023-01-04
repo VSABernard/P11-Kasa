@@ -23,7 +23,6 @@
 }
 
 .equipment-content {
-    max-width: 582px;
     height: auto;
     background: #E5E5E5;
     border-bottom-left-radius: 10px;
@@ -35,4 +34,15 @@
     line-height: 26px;
     color: #FF6060;
     padding: 20px;
+}
+
+@media (max-width: 998px) {
+    .equipment-section {
+        width: 100%;
+        gap: 700px;
+    }
+    .equipment-content {
+        width: 98%;
+        padding-right: 0;
+    }
 }

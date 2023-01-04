@@ -14,11 +14,13 @@
 .background-slogan-homepage {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.4)),
         url("../../assets/background-slogan.png");
+    object-fit: cover;
 }
 
 .background-about-d {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.4)),
         url("../../assets/background-about-d.png");
+    object-fit: fill;
 }
 
 .background-slogan-homepage h2 {
@@ -42,5 +44,12 @@
         align-items: flex-start;
         flex-direction: column;
         margin-left: 40px;
+    }
+    .background-about-d {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.4)),
+            url("../../assets/background-about-m.png");
+        object-fit: contain;
+        width: 998px;
+        height: 600px;
     }
 }

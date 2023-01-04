@@ -61,8 +61,18 @@
     margin: -50px auto 0;
 }
 
+@media (max-width: 1300px) {
+    .carousel, .carousel-image {
+        max-width: 1200px;
+    }
+}
+
 @media (max-width: 998px) {
     .carousel, .carousel-image {
-        width: 998px;
+        max-width: 998px;
+        height: 600px;
+    }
+    .chevron {
+        gap: 850px;
     }
 }

@@ -2,13 +2,12 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 40px auto;
+    margin: 40px auto 0;
 }
 header {
     width: 1240px;
     color: white;
-    margin-top: 50px;
-    margin-left: 40px;
+    margin: auto;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -21,6 +20,18 @@ img .kasa-logo {
     object-fit: cover;
     margin-top: 40px;
     margin-left: 30px;
+}
+
+@media (max-width: 1300px) {
+    header {
+        max-width: 1300px;
+        margin-left: 40px;
+    }
+    .kasa-header {
+        max-width: 1300px;
+        margin: 40px 40px 0;
+    }
+
 }
 
 @media (max-width: 998px) {

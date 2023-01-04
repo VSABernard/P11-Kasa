@@ -23,8 +23,13 @@
     text-decoration: underline;
 }
 
+@media (max-width: 1300px) {
+    .nav {
+        margin-right: 80px;
+    }
+}
 
-@media (max-width: 768px) {
+@media (max-width: 998px) {
     .nav {
         margin-right: 30px;
     }

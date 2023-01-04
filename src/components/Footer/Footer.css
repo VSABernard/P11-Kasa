@@ -1,7 +1,5 @@
 footer {
     display: flex;
-    position: relative;
-    flex: 0;
     flex-direction: column;
     justify-content: stretch;
     text-align: center;
@@ -31,8 +29,8 @@ p {
     text-align: center;
 }
 
-@media (max-width: 998px) {
+@media (max-width: 1300px) {
     footer {
-        min-width: 100vw;
+        margin: 0;
     }
 }

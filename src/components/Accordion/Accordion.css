@@ -46,3 +46,13 @@
     padding: 30px 27px 20px 18px;
     top: 38px;
 }
+
+@media (max-width: 998px) {
+    .accordion-block {
+        width: 998px;
+        margin: 40px auto;
+    }
+    .accordion-section {
+        width: 100%;
+    }
+}

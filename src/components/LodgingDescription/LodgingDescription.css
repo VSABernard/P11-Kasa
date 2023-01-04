@@ -1,6 +1,7 @@
 .description {
     display: flex;
     flex-direction: column;
+    width: 582px;
 }
 
 .description-section {
@@ -8,7 +9,7 @@
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    width: 594px;
+    width: 582px;
     height: 52px;
     background: #FF6060;
     border-radius: 10px;
@@ -27,7 +28,6 @@
 }
 
 .description-content {
-    width: 576px;
     height: auto;
     background: #E5E5E5;
     border-bottom-left-radius: 10px;
@@ -38,5 +38,16 @@
     font-size: 18px;
     line-height: 26px;
     color: #FF6060;
-    padding: 20px 0 20px 20px;
+    padding: 20px;
+}
+
+@media (max-width: 998px) {
+    .description-section {
+        width: 998px;
+        gap: 700px;
+    }
+    .description-content {
+        width: 960px;
+        padding-right: 20px;
+    }
 }
