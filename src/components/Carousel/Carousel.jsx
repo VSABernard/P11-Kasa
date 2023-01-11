@@ -7,9 +7,6 @@ const Carousel = ({pictures}) => {
     const [currentImage, setImage] = useState(pictures[0])
 
     const length = pictures.length
-    console.log (pictures)
-    console.log (pictures[0])
-    console.log (length)
 
     const handlePrevious = () => {
         let newIndex = index - 1
