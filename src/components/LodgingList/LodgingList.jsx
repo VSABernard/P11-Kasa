@@ -5,7 +5,6 @@ import housings from "../../data/housings.json"
 
 function LodgingList () {
    
-   console.log(housings)
     return (        
         <ul className="lodgingList-card" >
             { housings.map((housing) => (

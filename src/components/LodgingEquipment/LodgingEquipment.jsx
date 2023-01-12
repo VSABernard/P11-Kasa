@@ -8,7 +8,7 @@ library.add(fas)
 
 const LodgingEquipment = ({ equipments }) => {
     const [isActive, setIsActive] = useState(false)
-    console.log("equipments : " + equipments)
+    
     return (
         <div className='equipment'>
             <div className='equipment-section' onClick={() => setIsActive(!isActive)}>

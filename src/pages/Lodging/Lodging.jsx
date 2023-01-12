@@ -18,8 +18,7 @@ const Lodging = () => {
 
     const location = useLocation()                                  /* This hook returns the current location object */ 
     const housing = location.state
-    console.log ("housing : " + housing)    
-
+    
     if(housing != null ) { return (
         <div className='lodging'>
             <Header />
